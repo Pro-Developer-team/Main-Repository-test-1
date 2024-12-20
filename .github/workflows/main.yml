@@ -22,10 +22,6 @@ jobs:
         run: |
           npm install  # Adjust this command based on your project setup
 
-      - name: Build the project
-        run: |
-          npm run build  # Adjust this command based on your project setup
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
